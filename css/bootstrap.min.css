@@ -513,13 +513,14 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+ 
 }
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
+  /* border-radius: 0.25rem; */
+  /* max-width: 100%; */
   height: auto;
 }
 .figure {
@@ -528,11 +529,19 @@ progress {
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
+  
 }
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
 }
+
+
+
+
+
+
+
 .container,
 .container-fluid,
 .container-lg,
@@ -660,8 +669,12 @@ progress {
   width: 41.666667%;
 }
 .col-6 {
+  font-size: 50px;
+
+
+  text-align: center;
   flex: 0 0 auto;
-  width: 50%;
+  /* width: 50%; */
 }
 .col-7 {
   flex: 0 0 auto;
@@ -6243,7 +6256,7 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 3.5rem !important;
 }
 .mb-5 {
   margin-bottom: 3rem !important;
