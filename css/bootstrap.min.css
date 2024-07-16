@@ -55,7 +55,7 @@ body {
   color: #212529;
   /* background-color: #ffffff; */
   background-image: url(/LimitlessOnlineStore/img/RotatingSquare.gif);
-  background-position: center;
+  background-position: ;
   
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -6259,7 +6259,7 @@ fieldset:disabled .btn {
   margin-bottom: 3.5rem !important;
 }
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 7rem !important;
 }
 .mb-auto {
   margin-bottom: auto !important;
@@ -9043,3 +9043,63 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Animated Title */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	/* font-family: "Russo One", sans-serif; */
+  
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(23,5,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(23,5,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(23,5,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(23,5,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #000000};
+
+
+
+
+
+
+
+
+
+
+
